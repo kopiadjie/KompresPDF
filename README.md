@@ -1,29 +1,30 @@
-# PDF Compressor
+# KompresPDF 📄
 
-A desktop application to compress PDF files using Ghostscript.
+Halo! Ini adalah aplikasi sederhana namun berdaya guna untuk mengecilkan ukuran file PDF Anda agar lebih ringan dan mudah dibagikan, tanpa menghilangkan kualitasnya.
 
-## Features
-- Percentage-based compression quality.
-- Automatic output filename suggestion.
-- Integrated packaging tools to build standalone executables.
-- Modern UI using Tkinter with a clean layout.
+### 🏁 Fitur Utama:
+⚫ **Atur Kualitas**: Anda bebas memilih tingkat kompresi sesuai kebutuhan, mulai dari yang sangat kecil hingga kualitas terbaik.
+⚫ **Nama Otomatis**: Aplikasi akan memberikan saran nama file hasil kompresi secara otomatis, sehingga Anda lebih praktis.
+⚫ **Tampilan Simpel**: Antarmuka yang bersih dan modern, dirancang agar mudah digunakan oleh siapa saja.
+⚫ **Alat Pengemas**: Sudah dilengkapi dengan folder khusus untuk mengubah kode ini menjadi file aplikasi (.exe) yang siap pakai.
 
-## Project Structure
-- `src/`: Main Python source code.
-- `assets/`: Icons and static resources.
-- `packaging/`: Scripts and configurations to build the `.exe` and Installer.
-- `dist/`: Output folder for build results (generated after building).
+### 📁 Struktur Folder:
+⚪ `src/` — Berisi kode sumber utama aplikasi.
+⚪ `assets/` — Tempat menyimpan ikon dan gambar pendukung aplikasi.
+⚪ `packaging/` — Folder khusus yang berisi alat untuk membangun (build) file `.exe`.
+⚪ `dist/` — Folder hasil build (akan muncul secara otomatis setelah proses build selesai).
 
-## How to Build the Executable (.exe)
-1. Navigate to the `packaging/` folder.
-2. Double-click `build_exe.bat`.
-3. The executable will be generated in the `dist/` folder at the project root.
+### 🚀 Cara Membuat File .exe (Aplikasi Mandiri):
+1. Masuk ke dalam folder `packaging/`.
+2. Klik dua kali pada file `build_exe.bat`.
+3. Mohon tunggu sejenak hingga proses selesai.
+4. File aplikasi `.exe` Anda akan muncul di dalam folder `dist/` yang terletak di direktori utama.
 
-## Dependencies
-- Python 3.x
-- Ghostscript (Must be installed at `C:\Program Files (x86)\gs\gs10.07.0\`)
-- PyInstaller (for building .exe)
+### ⚙️ Hal Penting:
+⚫ Aplikasi ini memerlukan **Ghostscript** untuk bekerja. Pastikan Ghostscript sudah terpasang di sistem Anda.
+⚫ Jika Anda ingin menjalankan kode secara langsung, pastikan Anda menggunakan Python versi 3.x dan sudah menginstall library yang diperlukan.
+
+Terima kasih telah menggunakan KompresPDF. Semoga bermanfaat untuk pekerjaan Anda! 🙏
 
 ---
-*Created by Pedeep Creator*
-# KompresPDF
+*Dibuat dengan sepenuh hati oleh Pedeep Creator*
